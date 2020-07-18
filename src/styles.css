@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css');
+@import "tippy.js/dist/tippy.css";
+@import "tippy.js/themes/light-border.css";
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+.gstc{
+    padding: 1em;
+}
+
+.tippy-box{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0,0,0,.06);
+    border-radius: 4px;
+    color: #636562;
+    font-size: 12px;
+}
+.tooltip__row{
+    display: flex;
+    margin: 10px 0;
+}
+.tooltip__cell{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.tooltip__label{
+    font-size: 10px;
+    color: #A6A7A5;
+}
+.color-primary{
+    color: #2EA3DC;
+}
+.tooltip__input{
+    border: 1px solid #DFE6EE;
+    color: #2EA3DC;
+    font-size: 12px;
+    padding: 0 0.5em;
+}
+.tippy-arrow{
+    display: none;
+}
